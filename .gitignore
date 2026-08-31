@@ -1,0 +1,37 @@
+# Model weights
+*.pt
+
+# Video files
+*.mp4
+*.avi
+*.mkv
+
+# Dataset (images and cached labels)
+**/dataset/
+**/images/
+**/labels/
+*.cache
+
+# Training/prediction output
+**/runs/
+
+# Third-party tools
+**/labelimg_OBB/
+**/ultralytics-main/
+
+# Large documents (docx > 10MB)
+**/实验指导书_目标标注与轨迹跟踪.docx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store

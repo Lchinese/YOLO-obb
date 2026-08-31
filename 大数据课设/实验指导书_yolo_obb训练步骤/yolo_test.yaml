@@ -1,0 +1,10 @@
+path: "D:\\test\\datasets" #这是你数据集的绝对路径
+train: images\\train
+val: images\\val           #这两行是path下的相对路径
+nc: 3                      #类别数
+names:
+  - car
+  - pedestrian
+  - two-wheeler           #类别名称，按顺序对应标签文件中的类别ID
+task: obb                 #任务类型，默认为'obj'，如果是旋转目标检测则设置为'obb'
+obb: True                 #是否使用旋转边界框，默认为False，如果是旋转目标检测则设置为True
